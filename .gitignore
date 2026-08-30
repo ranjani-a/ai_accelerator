@@ -1,0 +1,16 @@
+# Simulation/build artifacts
+*_sim
+*_compile
+*.vcd
+
+# OpenLane generated runs
+asic/openlane/runs/
+
+# OpenLane temporary/generated files
+asic/openlane/__pycache__/
+*.log
+
+# OS/editor files
+*.swp
+*.swo
+*~

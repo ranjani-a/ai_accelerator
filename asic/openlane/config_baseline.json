@@ -1,0 +1,18 @@
+{
+  "DESIGN_NAME": "top",
+  "VERILOG_FILES": [
+    "dir::src/controller.v",
+    "dir::src/input_buffer.v",
+    "dir::src/output_buffer.v",
+    "dir::src/pe.v",
+    "dir::src/systolic_array.v",
+    "dir::src/top.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10.0,
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 700 700",
+  "SYNTH_STRATEGY": "AREA 2"
+}
